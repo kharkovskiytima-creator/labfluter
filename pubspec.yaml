@@ -1,0 +1,16 @@
+name: user_manager
+description: Лабораторна робота 1-2 (Flutter, MVVM) - веб-версія для Zapp.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  image_picker: ^1.1.2
+
+flutter:
+  uses-material-design: true
